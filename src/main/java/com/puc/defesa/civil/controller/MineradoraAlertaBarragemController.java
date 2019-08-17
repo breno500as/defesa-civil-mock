@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MineradoraAlertaBarragemController {
 
 	@PostMapping(consumes = "application/json")
-	public String notificacaoAlerta(@RequestBody String informacaoJSON) {
-		return "ok";
+	public void notificacaoAlerta(@RequestBody String informacaoJSON) {
 	}
 
 }
