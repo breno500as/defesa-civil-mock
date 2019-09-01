@@ -11,6 +11,7 @@ public class MineradoraAlertaBarragemController {
 
 	@PostMapping(consumes = "application/json")
 	public void notificacaoAlerta(@RequestBody String informacaoJSON) {
+		System.out.println(informacaoJSON);
 	}
 
 }
